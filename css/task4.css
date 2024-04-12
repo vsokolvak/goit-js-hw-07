@@ -1,0 +1,70 @@
+p a {
+    font-size: 30px;
+    color: #fff;
+    background-color: grey;
+    display: block;
+    padding: 20px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+p a:hover {
+    color: grey;
+    background-color: #fff;
+}
+
+.login-form {
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    background: #fff;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.login-form label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.login-form input {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.login-form button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    background: #4e75ff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+    
+.login-form button:hover {
+    background: #6c8cff;
+}

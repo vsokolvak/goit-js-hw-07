@@ -1,0 +1,26 @@
+p a {
+    font-size: 30px;
+    color: #fff;
+    background-color: grey;
+    display: block;
+    padding: 20px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+p a:hover {
+    color: grey;
+    background-color: #fff;
+}
+
+.gallery {
+    padding: 100px 156px;
+    display: flex;
+    gap: 24px 48px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 360px;
+    height: 300px;
+}

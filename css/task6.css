@@ -1,0 +1,92 @@
+p a {
+    font-size: 30px;
+    color: #fff;
+    background-color: grey;
+    display: block;
+    padding: 20px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+p a:hover {
+    color: grey;
+    background-color: #fff;
+}
+
+#controls {
+    display: flex;
+    border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    background: #f6f6fe;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 16px;
+    margin-top: 30px;
+}
+
+#controls input {
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px;
+    width: 150px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+#controls button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4e75ff;
+    transition: all 0.3s ease;
+}
+
+#controls button:last-child {
+    background: #ff4e4e;
+}
+
+#controls button:hover {
+    background: #6c8cff;
+}
+
+#controls button:last-child:hover {
+    background: #ff7070;
+}
+
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+#boxes div {
+    align-self: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
